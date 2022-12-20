@@ -1,0 +1,29 @@
+h2{
+	font-size: 40px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-radius: 10px;
+  }
+table{
+	letter-spacing: 1.2px;
+	border-radius: 150px;
+
+}
+th{
+	text-align:center;
+}
+td{
+	text-align: center;
+	
+}
+button{
+	border:none;
+	background:lightblue;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
